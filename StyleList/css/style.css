@@ -6,7 +6,12 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	
+	<span style="font-size:14px;">:root{  
+    --bili:0.027rem;      
+}  
+.header{  
+    height:calc(var(--bili) * 80);  
+}</span>  
 
     html,body
 	{
